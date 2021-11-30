@@ -47,14 +47,16 @@ public class PlayerMovement : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Collectible")
-            print("touching collider!");
-            Destroy(collision.gameObject);
-            cnt = GameObject.FindGameObjectsWithTag("Collectible");
-            coll = cnt.Length - 1;
-            counter.GetComponent<UnityEngine.UI.Text>().text = coll.ToString();
-            if (coll == 0)
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                print("touching collider!");
+                Destroy(collision.gameObject);
+                cnt = GameObject.FindGameObjectsWithTag("Collectible");
+                coll = cnt.Length - 1;
+                counter.GetComponent<UnityEngine.UI.Text>().text = coll.ToString();
+                if (coll == 0)
+                {
+                    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                }
             }
          //   counter1.Counter();
         //    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);

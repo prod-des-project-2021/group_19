@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Ground
   - Collectible
+  - Hole
+  - Damage
   layers:
   - Default
   - TransparentFX
