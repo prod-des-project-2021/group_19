@@ -10,6 +10,8 @@ public class PlayerMovement : MonoBehaviour
     public GameObject counter;
     private GameObject[] cnt;
     private int coll;
+    public AudioSource jumpSound;
+    public AudioSource collectibleSound;
     
     private void Start()
     {
@@ -33,6 +35,7 @@ public class PlayerMovement : MonoBehaviour
     private void Jump()
     {
         body.velocity = new Vector2(body.velocity.x, speed);
+        jumpSound.Play();
         grounded = false;
     }
 
@@ -50,6 +53,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 print("touching collider!");
                 Destroy(collision.gameObject);
+                collectibleSound.Play();
                 cnt = GameObject.FindGameObjectsWithTag("Collectible");
                 coll = cnt.Length - 1;
                 counter.GetComponent<UnityEngine.UI.Text>().text = coll.ToString();
