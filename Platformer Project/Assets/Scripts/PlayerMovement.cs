@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField]private float speed;
+    [SerializeField]private float jumpspeed;
     private Rigidbody2D body;
     private bool grounded;
     public GameObject counter;
@@ -34,7 +35,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Jump()
     {
-        body.velocity = new Vector2(body.velocity.x, speed);
+        body.velocity = new Vector2(body.velocity.x, jumpspeed);
         jumpSound.Play();
         grounded = false;
     }

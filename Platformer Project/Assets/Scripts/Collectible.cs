@@ -8,7 +8,8 @@ public class Collectible : MonoBehaviour
 {
 
     int coll = 19;
-    public GameObject display;
+    public GameObject display;   
+
 
     // Start is called before the first frame update
     void Start()
