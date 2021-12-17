@@ -5,11 +5,14 @@ using UnityEngine.SceneManagement;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField]private float speed;
+    [SerializeField]private float jumpspeed;
     private Rigidbody2D body;
     private bool grounded;
     public GameObject counter;
     private GameObject[] cnt;
     private int coll;
+    public AudioSource jumpSound;
+    public AudioSource collectibleSound;
     
     private void Start()
     {
@@ -32,7 +35,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void Jump()
     {
-        body.velocity = new Vector2(body.velocity.x, speed);
+        body.velocity = new Vector2(body.velocity.x, jumpspeed);
+        jumpSound.Play();
         grounded = false;
     }
 
@@ -50,6 +54,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 print("touching collider!");
                 Destroy(collision.gameObject);
+                collectibleSound.Play();
                 cnt = GameObject.FindGameObjectsWithTag("Collectible");
                 coll = cnt.Length - 1;
                 counter.GetComponent<UnityEngine.UI.Text>().text = coll.ToString();

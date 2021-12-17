@@ -14,10 +14,32 @@ public class AdvanceScreen : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Return))
+     /*   if (Input.GetKeyDown(KeyCode.Return))
         {
             SceneManager.LoadScene("SampleScene");
             print ("enter was pressed");
         }
+        */
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+        
+        QuitGame();
+        
+        }
+    }
+
+    public void QuitGame()
+    {
+        #if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+        #endif
+
+        Application.Quit();
+    }
+
+    public void NextScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
