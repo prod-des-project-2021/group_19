@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField]private float speed;
-    [SerializeField]private float jumpspeed;
+    [SerializeField]private float jumpspeed = 5;
     private Rigidbody2D body;
     private bool grounded;
     public GameObject counter;
@@ -42,7 +42,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Ground")
+        if (collision.gameObject.tag == "Ground" || collision.gameObject.tag == "Wall")
             grounded = true;
 
         

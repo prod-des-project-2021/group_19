@@ -9,12 +9,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Title Screen.unity
     guid: 296cf9a3a4bd30b439762937ee0c2c33
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Collectible Scene 1.unity
+    guid: 42098659f6f67ad4382e8f582eb85dd2
   - enabled: 1
     path: Assets/Scenes/Collectible Scene.unity
     guid: dbe16e1f0609a7a4799829aa0c5e90a2
   - enabled: 1
     path: Assets/Scenes/End Screen.unity
     guid: 298a76bbcb1a6164ea4920f91e275806
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}
