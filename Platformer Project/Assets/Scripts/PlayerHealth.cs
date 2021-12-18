@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour
 {
-    public int health = 3;
+    public int health = 10;
     public GameObject healthDisplay;
     public AudioSource damageSound;
     public AudioSource deathSound;
@@ -38,15 +38,23 @@ public class PlayerHealth : MonoBehaviour
 
         if (collision.gameObject.tag == "Damage")
         {
-            health -= 1;
             if (health > 0)
-            {
-                damageSound.Play();
-            }
-            else
-            {
-                deathSound.Play();
-            }
+                {
+                    damageSound.Play();
+                }
+                else
+                {
+                    deathSound.Play();
+                } 
+        }      
+    }
+
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Damage" && health > 0)
+        {
+            health -= 1;
             healthDisplay.GetComponent<UnityEngine.UI.Text>().text = "Health: " + health.ToString();
         }
     }
