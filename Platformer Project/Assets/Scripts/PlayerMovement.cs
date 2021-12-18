@@ -61,6 +61,11 @@ public class PlayerMovement : MonoBehaviour
                 if (coll == 0)
                 {
                     SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                    
+                    if (SceneManager.GetActiveScene().buildIndex == 2)
+                    {
+                        Cursor.visible = true;
+                    }
                 }
             }
          //   counter1.Counter();

@@ -47,6 +47,7 @@ public class PlayerHealth : MonoBehaviour
             if (health > 0)
             {
                 damageSound.Play();
+                health -= 1;
             }
             else
             {
