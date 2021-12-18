@@ -2,20 +2,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
-    public int health = 10;
-    public GameObject healthDisplay;
+    public int health = 3;
+    public Image healthDisplay;
     public AudioSource damageSound;
     public AudioSource deathSound;
+
+    public Sprite hearts0;
+    public Sprite hearts1;
+    public Sprite hearts2;
+    public Sprite hearts3;
 
     [SerializeField] private float _time = 0.5f;
 
     // Start is called before the first frame update
     void Start()
     {
-        healthDisplay = GameObject.Find("HealthD");
+
         
     }
 
@@ -39,23 +45,33 @@ public class PlayerHealth : MonoBehaviour
         if (collision.gameObject.tag == "Damage")
         {
             if (health > 0)
-                {
-                    damageSound.Play();
-                }
-                else
-                {
-                    deathSound.Play();
-                } 
-        }      
-    }
+            {
+                damageSound.Play();
+                health -= 1;
+            }
+            else
+            {
+                deathSound.Play();
+            }
+            
+            switch (health)
+            {
+                case 3:
+                    healthDisplay.sprite = hearts3;
+                break;
 
+                case 2:
+                    healthDisplay.sprite = hearts2;
+                break;
 
-    private void OnTriggerStay2D(Collider2D collision)
-    {
-        if (collision.gameObject.tag == "Damage" && health > 0)
-        {
-            health -= 1;
-            healthDisplay.GetComponent<UnityEngine.UI.Text>().text = "Health: " + health.ToString();
+                case 1:
+                    healthDisplay.sprite = hearts1;
+                break;
+
+                case 0:
+                    healthDisplay.sprite = hearts0;
+                break;
+            }
         }
     }
 

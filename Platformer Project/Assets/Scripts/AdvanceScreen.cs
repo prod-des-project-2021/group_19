@@ -40,6 +40,12 @@ public class AdvanceScreen : MonoBehaviour
 
     public void NextScene()
     {
+        Cursor.visible = false;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    public void StartMenu()
+    {
+        SceneManager.LoadScene(0);
     }
 }

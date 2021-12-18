@@ -1,7 +1,139 @@
 fileFormatVersion: 2
-guid: ac25d7c3072c4f74b8de5dadd0417cd8
+guid: 8a86a43ca7ca1354199f186390dbccf4
 TextureImporter:
   internalIDToNameTable:
+  - first:
+      213: -7992750962252201395
+    second: slime claus tiles1_0
+  - first:
+      213: -2757210856599405631
+    second: slime claus tiles1_1
+  - first:
+      213: 8015442263235550159
+    second: slime claus tiles1_2
+  - first:
+      213: 3372118441785134613
+    second: slime claus tiles1_3
+  - first:
+      213: -5216085889357582524
+    second: slime claus tiles1_4
+  - first:
+      213: -6144122830402218307
+    second: slime claus tiles1_5
+  - first:
+      213: -5496360441178028594
+    second: slime claus tiles1_6
+  - first:
+      213: 451751594504865009
+    second: slime claus tiles1_7
+  - first:
+      213: -1108370963196311581
+    second: slime claus tiles1_8
+  - first:
+      213: 1960380273393062500
+    second: slime claus tiles1_9
+  - first:
+      213: 6906343233571217012
+    second: slime claus tiles1_10
+  - first:
+      213: -7701899365560398309
+    second: slime claus tiles1_11
+  - first:
+      213: -3809825237462898366
+    second: slime claus tiles1_12
+  - first:
+      213: 8920500543491465594
+    second: slime claus tiles1_13
+  - first:
+      213: -8686253998720343379
+    second: slime claus tiles1_14
+  - first:
+      213: -4531406710347240553
+    second: slime claus tiles1_15
+  - first:
+      213: -6636199593442137543
+    second: slime claus tiles1_16
+  - first:
+      213: -5538608213667917295
+    second: slime claus tiles1_17
+  - first:
+      213: -6151239849103064238
+    second: slime claus tiles1_18
+  - first:
+      213: -2780270197161176872
+    second: slime claus tiles1_19
+  - first:
+      213: -1972045277423772371
+    second: slime claus tiles1_20
+  - first:
+      213: 6309359281862368738
+    second: slime claus tiles1_21
+  - first:
+      213: 2238209432754377017
+    second: slime claus tiles1_22
+  - first:
+      213: -3677486846856394991
+    second: slime claus tiles1_23
+  - first:
+      213: -1960049255145059795
+    second: slime claus tiles1_24
+  - first:
+      213: -3764300669317436738
+    second: slime claus tiles1_25
+  - first:
+      213: 1950388904814758853
+    second: slime claus tiles1_26
+  - first:
+      213: 5833056942901836756
+    second: slime claus tiles1_27
+  - first:
+      213: 2986512921108036971
+    second: slime claus tiles1_28
+  - first:
+      213: -4828477509884113103
+    second: slime claus tiles1_29
+  - first:
+      213: -432175373658292575
+    second: slime claus tiles1_30
+  - first:
+      213: 3785324726651784947
+    second: slime claus tiles1_31
+  - first:
+      213: 6227113304067258967
+    second: slime claus tiles1_32
+  - first:
+      213: 2209783855464775
+    second: slime claus tiles1_33
+  - first:
+      213: 5688632517372464321
+    second: slime claus tiles1_34
+  - first:
+      213: 7060267213592251981
+    second: slime claus tiles1_35
+  - first:
+      213: -6875139782201143644
+    second: slime claus tiles1_36
+  - first:
+      213: -8197877278808462458
+    second: slime claus tiles1_37
+  - first:
+      213: -7265042850748957257
+    second: slime claus tiles1_38
+  - first:
+      213: -3273442488944998744
+    second: slime claus tiles1_39
+  - first:
+      213: 2809807143922375162
+    second: slime claus tiles1_40
+  - first:
+      213: -4110917752864136418
+    second: slime claus tiles1_41
+  - first:
+      213: 270100087229522807
+    second: slime claus tiles1_42
+  - first:
+      213: 3291679275972540768
+    second: slime claus tiles1_43
   - first:
       213: 6269778259113600000
     second: slime claus tiles1 1_0
@@ -110,6 +242,30 @@ TextureImporter:
   - first:
       213: 8122975617360647013
     second: slime claus tiles1 1_35
+  - first:
+      213: 946604534905150752
+    second: slime claus tiles1 1_36
+  - first:
+      213: -5503247493717340215
+    second: slime claus tiles1 1_37
+  - first:
+      213: 6161024149810979307
+    second: slime claus tiles1 1_38
+  - first:
+      213: 1779120811777986068
+    second: slime claus tiles1 1_39
+  - first:
+      213: 4428300324264007605
+    second: slime claus tiles1 1_40
+  - first:
+      213: 8769257964300345893
+    second: slime claus tiles1 1_41
+  - first:
+      213: 2500167609332437534
+    second: slime claus tiles1 1_42
+  - first:
+      213: -2088722929951489711
+    second: slime claus tiles1 1_43
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -150,7 +306,7 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 1
+  spriteExtrude: 0
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
@@ -790,7 +946,7 @@ TextureImporter:
       name: slime claus tiles1 1_28
       rect:
         serializedVersion: 2
-        x: 256
+        x: 0
         y: 320
         width: 64
         height: 64
@@ -811,7 +967,7 @@ TextureImporter:
       name: slime claus tiles1 1_29
       rect:
         serializedVersion: 2
-        x: 320
+        x: 64
         y: 320
         width: 64
         height: 64
@@ -832,7 +988,7 @@ TextureImporter:
       name: slime claus tiles1 1_30
       rect:
         serializedVersion: 2
-        x: 384
+        x: 128
         y: 320
         width: 64
         height: 64
@@ -853,7 +1009,7 @@ TextureImporter:
       name: slime claus tiles1 1_31
       rect:
         serializedVersion: 2
-        x: 448
+        x: 192
         y: 320
         width: 64
         height: 64
@@ -875,7 +1031,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 256
-        y: 256
+        y: 320
         width: 64
         height: 64
       alignment: 0
@@ -896,7 +1052,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 320
-        y: 256
+        y: 320
         width: 64
         height: 64
       alignment: 0
@@ -917,7 +1073,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 384
-        y: 256
+        y: 320
         width: 64
         height: 64
       alignment: 0
@@ -938,7 +1094,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 448
-        y: 256
+        y: 320
         width: 64
         height: 64
       alignment: 0
@@ -950,6 +1106,174 @@ TextureImporter:
       bones: []
       spriteID: 563d0ff594b9ab070800000000000000
       internalID: 8122975617360647013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime claus tiles1 1_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d9bc52fc3032d00800000000000000
+      internalID: 946604534905150752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime claus tiles1 1_37
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf4be9df8980a3b0800000000000000
+      internalID: -5503247493717340215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime claus tiles1 1_38
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be1261e52da508550800000000000000
+      internalID: 6161024149810979307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime claus tiles1 1_39
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e088eb3f4b0b810800000000000000
+      internalID: 1779120811777986068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime claus tiles1 1_40
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b7d08aceab747d30800000000000000
+      internalID: 4428300324264007605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime claus tiles1 1_41
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52223e138a9a2b970800000000000000
+      internalID: 8769257964300345893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime claus tiles1 1_42
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e129239b13162b220800000000000000
+      internalID: 2500167609332437534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime claus tiles1 1_43
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 151470ecf8d5303e0800000000000000
+      internalID: -2088722929951489711
       vertices: []
       indices: 
       edges: []
