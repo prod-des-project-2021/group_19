@@ -44,7 +44,6 @@ public class PlayerHealth : MonoBehaviour
 
         if (collision.gameObject.tag == "Damage")
         {
-            health -= 1;
             if (health > 0)
             {
                 damageSound.Play();
